@@ -1,0 +1,13 @@
+#importacao de bibliotecas
+import sqlite3 as lite
+from datetime import datetime
+
+#conexao com  banco
+co = lite.connect('dados.db')
+
+#funcao para inserir inventario
+def inserir_form(i)
+    with con:
+        cur = "INSERT INTO INVENTARIO (NOME,LOCAL,DESCRICAO,MARCA,DATA_DA_COMPRA," \
+               "VALOR_DA_COMPRA, SERIE,IMAGEM) VALUES (?,?,?,?,?,?,?,?)"
+               CUR.EXERCUTE(QUERY,I)
